@@ -14,7 +14,6 @@ function App() {
     message:"Como posso te ajudar hoje?"
   }])
 
-
   async function handleSubmit(e) {
     e.preventDefault();
 
@@ -30,7 +29,9 @@ function App() {
       user: 'gpt', 
       message: response
     }])
+    
     setInput("")
+
   }
 
   return (
@@ -42,24 +43,25 @@ function App() {
 
           <div className='chat-log'>
             {chatLog.map((message, index)=>(
-              <ChatMessage key={index} message={message} />
+              <ChatMessage key={index} message={message}/>
             ))}
           </div>
-
+      </section>
+      <section>
           <div className='chat-input-holder'>
             <form onSubmit={handleSubmit}>
-              <input
-                rows='1'
-                className='chat-input-textarea'
-                value={input}
-                onChange={e =>setInput(e.target.value)}
-              >
-              </input>
+                <input
+                  rows='1'
+                  className='chat-input-textarea'
+                  value={input}
+                  onChange={e =>setInput(e.target.value)}
+                />
             </form>
           </div>
       </section>
 
     </div>
+    
   );
 }
 

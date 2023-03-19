@@ -2,7 +2,7 @@
   width: 260px;
   padding:10px;
   /* border:1px solid white; */
-  background-color: #202123;
+  background-color: #060807;
 }
 
 .sidemenu-button{
@@ -14,7 +14,7 @@
 }
 
 .sidemenu-button:hover{
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #7F5EDB;
 }
 
 .sidemenu-button span{

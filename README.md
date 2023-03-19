@@ -21,7 +21,7 @@
 
 it's my clone project of the so famous ChatGPT, taught in a DIO programming course company, I was taught the back-end of how ChatGPT was created. But, the front-end was taken from Github https://github.com/felipeAguiarCode/node-react-chatgpt-clone and is in a slow process of modification, making the project more unique.
 
-<img src="public/ChatJP.png">
+<img src="web/public/ChatJP.png">
 
 ## Available Scripts
 
@@ -104,7 +104,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 é meu projeto clone do tão famoso ChatGPT, ensinado em uma empresa de cursos de programação DIO, foi ensinado o back-end de como foi criado o ChatGPT. Mas, o front-end foi pego no Github https://github.com/felipeAguiarCode/node-react-chatgpt-clone e está em processo lento de modificação, deixando o projeto mais único. 
 
-<img src="public/ChatJP.png">
+<img src="web/public/ChatJP.png">
 
 ## Scripts disponíveis
 

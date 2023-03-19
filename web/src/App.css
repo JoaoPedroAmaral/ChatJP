@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Silkscreen&display=swap');
+
 .App {
   text-align: center;
   display: flex;
@@ -49,13 +51,24 @@
 .chatbox{
   flex: 1;
   /* border:1px solid white; */
-  background-color: #353541;
+  background-color: #3D5451;
   position: relative;
-  overflow-y:auto;
+  overflow-y:scroll;
+  padding-bottom: 75px;  
+}
+.chatbox::-webkit-scrollbar{
+  background-color: #060807;
+}
+.chatbox::-webkit-scrollbar-thumb {
+  background-color: #3D5451;
+  border: 3px solid #060807;
+  
 }
 
 .chat-input-holder{
-  padding:24px;
+  padding:4px;
+  padding-left: 260px;
+  width: 100%;
   position:absolute;
   bottom: 0;
   left:0;
@@ -63,7 +76,7 @@
 }
 
 .chat-input-textarea{
-  background-color: #40414f;
+  background-color: #25332F;
   width: 90%;
   padding: 12px;
   color:white;
@@ -75,6 +88,8 @@
   outline: none;
   box-shadow: 0 0 8px 0 rgba(0, 0, 0.25);
   resize: none;
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
 }
 
 .chat-log{
@@ -101,6 +116,7 @@
 .message{
   padding-left: 40px;
   padding-right: 40px;
+  padding: 4px;
 }
 
 .avatar{
@@ -111,9 +127,8 @@
 }
 
 .avatar.chatgpt{
-  background: #0da37f;
+  background: #7F5EDB;
   border-radius: 50%;
   width: 40px;
   height: 40px;
 }
-
